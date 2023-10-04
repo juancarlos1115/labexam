@@ -7,8 +7,24 @@ body {
     background-color: #f0f0f0; /* Background color of the page */
 }
 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.crs{
+
+}
+.adm{
+    color:#030608;
+}
+
 .column1 {
-    background-image: linear-gradient(#1c1c1c65, #1c1c1c),url('../img/cbg1.jpg');
+    background-image: linear-gradient(#1c1c1c65, #5661e1),url('../img/cbg1.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,13 +32,16 @@ body {
   }
   
 .column2 {
-    background-image: url('resource/img/cbg2.jpg') center/cover;
-    background-color: rgba(0, 0, 0, 0.3); /* Darkening effect */
+    background-image: linear-gradient(#1c1c1c65, #5661e1),url('../img/cbg2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   }
   
   .column {
     width: 50%;
-    height: 650px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -31,7 +50,7 @@ body {
     border-radius: 0px;
     text-align: center;
     box-sizing: border-box;
-    position: relative;
+    position:relative;
   }
 
 .info{
@@ -65,4 +84,18 @@ body {
 
 .button:hover {
     background-color: #478dea; 
+    
 }
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
