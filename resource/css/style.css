@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-rendering:optimizeSpeed;
+}
+.container{
+    min-height: 100vh;
+    background-image: linear-gradient(#1c1c1c5d, #1c1c1c),url(/img/harvard.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.house{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
