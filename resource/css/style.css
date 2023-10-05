@@ -5,21 +5,25 @@ body, html {
     height: 100%;
     overflow-x: hidden; 
 }
-.carousel-inner .carousel-item img {
-    height: 300px; 
-}
-.jumbotron{
-    height: 500px;
-}
+
+/* Add this to your CSS file */
+
 .loader-wrapper {
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #ADD8E6;
 }
-.lead{
-    font-size:2px;
+
+
+
+#News .jumbotron h1.display-6 {
+    font-size: 2rem; 
+}
+
+.Announcement{
+    padding: 50px;
 }
 
