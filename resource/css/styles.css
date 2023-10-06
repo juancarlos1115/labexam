@@ -1,5 +1,5 @@
-*{
 
+*{
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
@@ -36,11 +36,33 @@
 }
 
 
-
-.header{
-    min-height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    
 }
+
+.loader-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(#ADD8E6); /* Semi-transparent background */
+    z-index: 1000; /* Make sure it's on top of other elements */
+}
+#News .jumbotron h1.display-6 {
+    font-size: 2rem; 
+}
+
+.Announcement{
+    padding: 50px;
+}
+
+
