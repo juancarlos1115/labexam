@@ -1,4 +1,5 @@
 *{
+
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
@@ -26,4 +27,19 @@
     width: 200px;
     height: 100px;
     background-image:url(../img/harvard.jpg) ;
+
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+
+
+
+.header{
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
