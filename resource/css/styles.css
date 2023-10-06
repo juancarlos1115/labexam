@@ -24,17 +24,6 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.background{
-    width: 200px;
-    height: 100px;
-    background-image:url(../img/harvard.jpg) ;
-
-    padding:0;
-    margin:0;
-    scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-}
-
 
 body, html {
     margin: 0;
