@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    
+}
+
+/* Add this to your CSS file */
+
+/* Styles for the loader overlay */
+.loader-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(#ADD8E6); /* Semi-transparent background */
+    z-index: 1000; /* Make sure it's on top of other elements */
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #000000;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.header{
+    
+    min-height: 100vh;
+    background-image: linear-gradient(#ADD8E6,#ADD8E6),url('../img/square-academic-hat.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#News .jumbotron h1.display-6 {
+    font-size: 2rem; 
+}
+
+.Announcement{
+    padding: 50px;
+}
+
