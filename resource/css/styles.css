@@ -5,23 +5,24 @@
     scroll-behavior: smooth;
     text-rendering:optimizeSpeed;
 }
-.container{
+
+.header{
     min-height: 100vh;
-    background-image: linear-gradient(#1c1c1c5d, #1c1c1c),url(/img/harvard.jpg);
+    background-image: linear-gradient(#5c5ee4b5,#e0d9d9b5),url(../img/harvard.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
-
 }
+
+.card1{
+    background-color: #1c1c1cb5;
+}
+
+
 .house{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
- 
-
-
-
 }
 .background{
     width: 200px;
