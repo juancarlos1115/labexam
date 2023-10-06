@@ -1,3 +1,41 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    text-rendering:optimizeSpeed;
+}
+
+.header{
+    min-height: 100vh;
+    background-image: linear-gradient(#5c5ee4b5,#e0d9d9b5),url(../img/harvard.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card1{
+    background-color: #1c1c1cb5;
+}
+
+
+.house{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background{
+    width: 200px;
+    height: 100px;
+    background-image:url(../img/harvard.jpg) ;
+
+    padding:0;
+    margin:0;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+}
+
+
 body, html {
     margin: 0;
     padding: 0;
@@ -7,9 +45,6 @@ body, html {
     
 }
 
-/* Add this to your CSS file */
-
-/* Styles for the loader overlay */
 .loader-overlay {
     display: flex;
     justify-content: center;
@@ -22,20 +57,6 @@ body, html {
     background-color: rgba(#ADD8E6); /* Semi-transparent background */
     z-index: 1000; /* Make sure it's on top of other elements */
 }
-
-
-
-
-
-.header{
-    
-    min-height: 100vh;
-    background-image: linear-gradient(#ADD8E6,#ADD8E6),url('../img/square-academic-hat.jpg');
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
-}
-
 #News .jumbotron h1.display-6 {
     font-size: 2rem; 
 }
@@ -43,4 +64,5 @@ body, html {
 .Announcement{
     padding: 50px;
 }
+
 
